@@ -14,9 +14,20 @@ namespace ConsoleApp1
             EscriveAlgoEspecifico("soy un argumento");
 
             Console.WriteLine(Sumar(5, 3));
+            
+
+            string input = Console.ReadLine();
+            Console.WriteLine(input);
+
+
+            Console.WriteLine("dame el primer numero ");
+            string numero1 = Console.ReadLine();
+            Console.WriteLine("dame el segundo numero ");
+            string numero2 = Console.ReadLine();
+
+            Console.WriteLine(Calcular(Convert.ToDouble(numero1), Convert.ToDouble(numero2)));
+
             Console.ReadLine();
-
-
         }
 
         public static void EscribeAlgo()
@@ -34,5 +45,11 @@ namespace ConsoleApp1
         {
             return parametro1 + parametro2;
         }
+
+        public static double Calcular(double numero1, double numero2)
+        {
+            return numero1 + numero2;
+        }
+
     }
 }
