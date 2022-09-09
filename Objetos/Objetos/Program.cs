@@ -13,10 +13,12 @@ namespace Objetos
             //Instancia de Humano
             Humano juan = new Humano("Juan", "Rodrigez", "verde", 23);
             Humano pedro = new Humano("Pedro", "Zalomon", "negro", 78);
-
+            Humano humano = new Humano();
 
             juan.presentarme();
             pedro.presentarme();
+
+
 
             Console.ReadLine();
 

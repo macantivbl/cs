@@ -15,7 +15,10 @@ namespace Objetos
         private int edad = 0;
 
         //Constructor NoParametrizado
-
+        public Humano()
+        {
+            Console.WriteLine("Humano");
+        }
         
         // Constructores Parametrizado
         public Humano(string primerNombre, string apellido, string colorOjo, int edad)
