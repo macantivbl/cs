@@ -19,6 +19,11 @@ namespace Objetos
             pedro.presentarme();
 
 
+            //Propiedades
+            Caja caja = new Caja(5,-4,4);
+
+            caja.Muestrainfo();
+
 
             Console.ReadLine();
 
