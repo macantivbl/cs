@@ -22,6 +22,8 @@ namespace Objetos
             //Propiedades
             Caja caja = new Caja(5,-4,4);
 
+            Console.WriteLine("La superficie frontal es {0}", caja.SuperficieFrontal);
+
             caja.Muestrainfo();
 
 
